@@ -1,7 +1,7 @@
 /* 
-div: red background, white text, 32px font-size, center-aligned, bold
-p: green background, white text, and a font size of 18px
-button: orange background and font size of 18px
+div (external method): red background, white text, 32px font-size, center-aligned, bold
+p (internal method): green background, white text, and a font size of 18px
+button (inline method): orange background and font size of 18px
  */
 
 div {
