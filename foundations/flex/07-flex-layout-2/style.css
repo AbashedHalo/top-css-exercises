@@ -30,8 +30,8 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  display: flex;
   flex-shrink: 0;
+  padding: 16px;
 }
 
 a {
@@ -42,9 +42,8 @@ a {
 
 .card-container {
   display: flex;
-  flex-grow: 1;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 32px;
   padding: 48px;
 }
 
@@ -58,15 +57,15 @@ a {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   width: 300px;
-  flex-shrink: 0;
   padding: 16px;
 }
 
 ul {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
   list-style: none;
   margin: 0;
-  padding: 16px;
+  padding: 0px;
+}
+
+li {
+  margin-bottom: 16px;
 }
